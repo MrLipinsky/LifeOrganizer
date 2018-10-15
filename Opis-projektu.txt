@@ -1,0 +1,33 @@
+﻿LifeOrganizer - będzie to zaawansowany terminarz, pozwalający na zarządzanie grafikiem w pracy, spotkaniami, a także pozwalający na przechowywanie bazy klientów. (tak, wymyśliłem ją jako swoistą pomoc przy ogarnianiu moich korepetycji, co jednak nie będzie przeszkodą do tego, żeby używać tego systemu w innych dziedzinach)
+
+1. Nazwa projektu
+Jak widzicie LifeOrganizer jest nazwą dość do dupy, dlatego jeśli ktoś z Was ma pomysł na nazwę, niechaj przemówi i ochrzci nasz projekt.
+
+2. Struktura projektu
+Serwer baz danych, razem ze wszelkim back-endem, niezbędnym do jej obsługi - wiadoma sprawa, gdzieś trzeba te wszystkie dane trzymać. Dobrze byłoby też stworzyć coś w rodzaju panelu administracyjnego, ale to tam mniejszy problem, bo w razie czego można użyć phpmyadmin (lub czegoś w podobie) i się z tym nie chrzanić.
+
+Aplikacja internetowa (oczywiście RWD) - będzie ona głównym interfejsem użytkownika. Z jej poziomu będziemy dodawać poszczególne wpisy do grafiku, ustawiać przypomnienia, dodawać klientów, itp.
+
+Aplikacja mobilna - funkcjonalność identyczna do aplikacji internetowej, przy czym będzie ona dostosowana do urządzeń mobilnych.
+
+3. Wybór technologii
+
+Serwer - baza w MySQL lub czymś podobnym, reszta back-endu: najlepiej java, python, od biedy może być w php
+
+Aplikacja Internetowa - HTML5, CSS3, JavaScript (ES6), dodatkowo może być JQery, Bootstrap i wszelkie biblioteki potrzebne do działania. Rozwiązanie hardkorowe: Angular/React
+
+Aplikacja Mobilna - XAML + Java (Android Studio), bądź też React Native. W pierwszym przypadku aplikacja powstaje tylko i wyłącznie na Androida, w drugim jest ona też na Androida, ale z możliwością łatwego przepisania na ajfony.
+
+4. Najważniejsze funkcjonalności
+Serwer - obsługa baz danych, obsługa zapytań wchodzących i wychodzących, zabezpieczenia przed idiotami, hakerami, januszami
+
+Aplikacja mobilna i internetowa - dodawanie wpisów do grafiku, modyfikacja istniejących i ich usuwanie, ustawianie przypomnień, możliwość dodawania klientów razem z funkcją szybkiego kontaktu (tzn: np. mam spotkanie z Januszem, klikam na wpis ze spotkaniem i pokazuje się zdjęcie Janusza, razem z jego danymi kontaktowymi i nr telefonu, następnie klikam na numer i od razu dzwoni do niego). Dobrą rzeczą byłaby również możliwość tworzenia raportów dziennych i okresowych z grafiku, dzięki czemu można sobie podsumować dany okres pracy. Koniecznie również przyda się możliwość odhaczania tych zdarzeń, które już się wydarzyły (czyli, że dany osobnik pojawił się lub nie pojawił się na spotkaniu).
+
+5. Podział zadań
+Aplikacja internetowa - Kacper
+Aplikacja mobilna - Adrian
+Serwer - ?
+Grafiki do strony oraz aplikacji - ?
+
+6. Podsumowanie
+Póki co, to ten opis jest dość kiepski, bo pisany na szybko. Warto by było się ugadać, co i jak oraz wnieść wszelkie poprawki i podjąć ostateczne decyzje odnośnie technologii, nazwy i ustalić jakieś terminy.
